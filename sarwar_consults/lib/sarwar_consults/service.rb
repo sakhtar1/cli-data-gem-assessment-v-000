@@ -1,9 +1,9 @@
 class SarwarConsults::Service
     attr_accessor :service, :url
 
-    def initialize(url = nil, service = nil)
-      @url = url
-      @service = service
+    def initialize(url, service)
+      @url = []
+      @service = []
     end
 
     def get_service
