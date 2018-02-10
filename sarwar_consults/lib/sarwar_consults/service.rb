@@ -1,10 +1,4 @@
 class SarwarConsults::Service
-    attr_accessor :service, :url
-
-    def initialize(url, service)
-      @url = []
-      @service = []
-    end
 
     def get_service
       Nokogiri::HTML(open('http://sarwarconsults.com/services/'))
