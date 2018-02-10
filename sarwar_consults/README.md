@@ -22,10 +22,10 @@ Or install it yourself as:
 ## Usage
 
 1. User opens the gem
-2. The first question gives a list of services 
+2. The first question gives a list of services
 3. User chooses a service from the list provided
 4. Once the information for the specific service is provided, user is allowed to look at another service, or click on the url provided with the content of the selected service
-4. There is also a sign up url, if at any point the user wants to sign up, they can write "sign up" and the link to Sign Up will display 
+4. There is also a sign up url, if at any point the user wants to sign up, they can write "sign up" and the link to Sign Up will display
 5. If user wants to exit at any time, typing "exit" will exit the gem.
 
 ## Development
