@@ -2,8 +2,8 @@ class SarwarConsults::Service
     attr_accessor :service, :url
 
     def initialize(url = nil, service = nil)
-      @url = []
-      @service = []
+      @url = url
+      @service = service
     end
 
     def get_service
@@ -15,11 +15,11 @@ class SarwarConsults::Service
     end
 
     def scrape_services
-      @service << get_service.search("p a").collect{|item| item.text}
+      @service = get_service.search("p a").collect{|item| item.text}
     end
 
     def scrape_url
-      @url << get_service.search("p a").collect{|link| link['href']}
+      @url = get_service.search("p a").collect{|link| link['href']}
     end
 
     def scrape_content(url)
