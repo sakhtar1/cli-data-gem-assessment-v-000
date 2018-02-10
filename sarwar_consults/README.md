@@ -1,8 +1,7 @@
 # SarwarConsults
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/sarwar_consults`. To experiment with that code, run `bin/console` for an interactive prompt.
+When you're a small business and you're looking to grow your company, advertisement plays a huge role. SarwarConsults gem was created to make it easy for these small businesses to analyze and figure out what they're looking for through answering a few questions. Once they answer the questions, they are presented with the information that best fits their requirements.
 
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
@@ -22,7 +21,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+1. User opens the gem
+2. The first question gives a list of services 
+3. User chooses a service from the list provided
+4. Once the information for the specific service is provided, user is allowed to look at another service, or click on the url provided with the content of the selected service
+4. There is also a sign up url, if at any point the user wants to sign up, they can write "sign up" and the link to Sign Up will display 
+5. If user wants to exit at any time, typing "exit" will exit the gem.
 
 ## Development
 
