@@ -39,6 +39,7 @@ class SarwarConsults::CLI
       when "sign up"
           puts "Click on the link below to sign up!"
           puts SarwarConsults::Service.scrape_signup
+          
       when "exit"
           puts "Until next time!"
       break
