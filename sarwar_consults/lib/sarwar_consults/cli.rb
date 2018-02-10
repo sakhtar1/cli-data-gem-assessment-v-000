@@ -13,7 +13,6 @@ class SarwarConsults::CLI
     list_services
     puts "To exit at anytime, type exit."
     puts "To sign up at anytime, type sign up."
-    binding.pry
     puts "What type of services are you looking for today:"
   end
 
