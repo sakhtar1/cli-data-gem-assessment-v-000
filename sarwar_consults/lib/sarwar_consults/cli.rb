@@ -10,21 +10,7 @@ class SarwarConsults::CLI
   def introduction
     puts "Welcome to Sarwar Consults!"
     puts "Look at the following services:"
-    #list_services
-    puts "
-1. Full Service Small Business Marketing
-2. Search Engine Optimization (SEO)
-3. Search Engine Marketing (SEM)
-4. Website Development &amp; Management
-5. Social Media Marketing (SMM)6. Social Media Management
-7. Brand Strategy
-8. Campaign Strategy
-9. Email Marketing
-10. Creative Design
-11. Market Research and Planning
-12. Mobile Website and Application Development
-13. Content Management"
-    
+    list_services  
     puts "To exit at anytime, type exit."
     puts "To sign up at anytime, type sign up."
     puts "What type of services are you looking for today:"
